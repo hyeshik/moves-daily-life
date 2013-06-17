@@ -31,11 +31,7 @@ Usage
 
 1. Register your API client on [Moves developer site](https://dev.moves-app.com/).
 
-2. Create __keys.py and specify client__id and client__secret like the following:
-
-   client_id = '6QvGvRRhxHMMZHTJktQ12hI5956owtE6'
-   client_secret = 'S_IzKu_i10cNOjah116AP5hMe3qqoHMbxIPBY0iUzE8lC61K2_hKFh1L9ZS3STxL'
-   secret_key = 'S_IzKu_i10cNOjah116AP5hMe3qqoHMbxIPBY0iUzE8lC61K2_hKFh1L9ZS3STxL'
+2. Put `client_id` and `client_secret` in `_keys.py`.
 
 3. Launch `dumpmoves.py`. This listens on TCP port 9416 by default to receive code
    from OAuth procedures. Change appropriate firewall settings or the port number
@@ -84,7 +80,7 @@ Usage
 Disclaimer
 ----------
 
-This library uses data from Moves but is not endorsed or certified by Moves. Moves is a trademark of ProtoGeo Oy.
+These scripts use data from Moves but is not endorsed or certified by Moves. Moves is a trademark of ProtoGeo Oy.
 
 License
 -------
